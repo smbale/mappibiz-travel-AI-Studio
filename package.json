@@ -15,5 +15,9 @@
     "@types/node": "^22.14.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
+  },
+  "hosting": {
+    "site": "crucial-oven-453812-i9-05b5",
+
+    "public": "public"}
   }
-}

@@ -39,6 +39,25 @@
     </script>
   </head>
   <body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDPYHhWTqhNzMtVj46eXyIyz-TijehRjfc",
+      authDomain: "crucial-oven-453812-i9.firebaseapp.com",
+      projectId: "crucial-oven-453812-i9",
+      storageBucket: "crucial-oven-453812-i9.firebasestorage.app",
+      messagingSenderId: "226666028681",
+      appId: "1:226666028681:web:060c0d2e088f410830f058"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
     <!-- Main container for the map and related UI elements -->
     <div id="map-container" class="map-container">
       <div id="map"></div>
